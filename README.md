@@ -92,8 +92,8 @@ This project highlights:
 ## Contact
 If you're interested feel free to connect:
 
-- **Name:** [Stanley Poley]
-- **LinkedIn:** [https://www.linkedin.com/in/stanley-poley/]
-- **Email:** [stanley.poley@gmail.com]
+- **Name:** Stanley Poley
+- **LinkedIn:** https://www.linkedin.com/in/stanley-poley/
+- **Email:** stanley.poley@gmail.com
 
 ---
