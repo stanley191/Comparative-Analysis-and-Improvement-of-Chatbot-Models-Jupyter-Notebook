@@ -1,6 +1,6 @@
 # Comparative Analysis and Improvement of Chatbot Models
 
-This repository contains a Jupyter Notebook documenting the development, evaluation, and improvement of two chatbot models: a **Bag-of-Words (BoW) classifier** and a more advanced **Transformer-based model**. The project demonstrates the end-to-end workflow of building, benchmarking, and iteratively improving conversational AI systems.
+This repository contains a Jupyter Notebook documenting the evaluation and improvement of two chatbot models: a **Bag-of-Words (BoW) classifier** and a more sophisticated **Transformer-based model**. The project demonstrates the end-to-end workflow of benchmarking, analysing and iteratively improving conversational AI systems.
 
 ---
 
@@ -13,8 +13,10 @@ The goal of this project is to explore and compare different approaches to inten
 Key aspects of this work include:
 - Designing benchmark tests to fairly compare models.
 - Evaluating intent classification accuracy, confidence, and response relevance.
+- Data pre-processing
 - Visualizing comparative results with clear metrics.
 - Iteratively improving the Transformer model to close the performance gap.
+- Evolving the test design to explore contrasts in more depth
 
 ---
 
@@ -29,7 +31,7 @@ Key aspects of this work include:
 
 ## 📊 Results Summary
 - The **Bag-of-Words model** achieved strong baseline accuracy with near-perfect classification on most prompts.
-- The **Transformer model** initially underperformed but showed promise in capturing semantic nuances.
+- The **Transformer model** initially underperformed but showed potential in understanding subtle differences in meaning and context between user inputs.
 - Iterative improvements narrowed the performance gap, showcasing how modern NLP architectures can be optimized.
 
 ---
@@ -46,9 +48,13 @@ Key aspects of this work include:
 ## 📂 Repository Structure
 ```
 ├── Comparative Analysis and Improvement of Chatbot Models.ipynb   # Main notebook
-├── intents.json                                                   # Dataset of intents
-├── README.md                                                      # Project documentation
-├── requirements.txt                                               # Python dependencies
+├── intents.json                                                   # Text file of intents
+├── README.md                                                      # Project documentation (this file)
+├── BOW Model                                                      # Files for bag-of-words model
+├── Transformer Model                                              # Files for transformer model
+├── Improved Transformer Model                                     # Improvements made to the transformer model
+├── Saved Graphics                                                 # Graphics displayed in the notebook
+├── Saved Tables                                                   # Tables of data used in graphics
 ```
 
 ---
@@ -62,6 +68,8 @@ Key aspects of this work include:
    ```bash
    cd <your-repo-name>
    ```
+   -Make sure the notebook, data sets and intents.json are placed in the same folder for smooth execution (you will need to move the tables from the "Saved Tables" folder). The models should run in their seperate folders but if you would like to re-run the batch-tests you will need to manually move the tables produced into the same folder as the notebook to use        your own data.
+   -Note: The saved graphics included in this repo are for illustration only and are not required to re-run the notebook.
 3. Install dependencies:
    ```bash
    pip install -r requirements.txt
@@ -83,11 +91,11 @@ This project highlights:
 ---
 
 ## 📬 Contact
-If you're interested in discussing this project further or exploring internship opportunities, feel free to connect:
+If you're interested feel free to connect:
 
-- **Name:** [Your Name]
-- **LinkedIn:** [Your LinkedIn Profile]
-- **Email:** [Your Email]
+- **Name:** [Stanley Poley]
+- **LinkedIn:** [https://www.linkedin.com/in/stanley-poley/]
+- **Email:** [stanley.poley@gmail.com]
 
 ---
 
