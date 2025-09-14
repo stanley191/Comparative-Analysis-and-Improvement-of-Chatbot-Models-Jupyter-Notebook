@@ -4,7 +4,7 @@ This repository contains a Jupyter Notebook documenting the evaluation and impro
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 The goal of this project is to explore and compare different approaches to intent classification and response generation in chatbots:
 
 1. **Bag-of-Words Model** – A simple model using frequency-based text representation.
@@ -20,7 +20,7 @@ Key aspects of this work include:
 
 ---
 
-## 🔑 Key Features
+## Key Features
 - **Intent Recognition**: Both models were trained on a curated intents dataset.
 - **Benchmarking Framework**: Identical prompts were used to assess model performance.
 - **Quantitative Metrics**: Accuracy, confidence scores, relevance ratings, and response times.
@@ -29,14 +29,14 @@ Key aspects of this work include:
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 - The **Bag-of-Words model** achieved strong baseline accuracy with near-perfect classification on most prompts.
 - The **Transformer model** initially underperformed but showed potential in understanding subtle differences in meaning and context between user inputs.
 - Iterative improvements narrowed the performance gap, showcasing how modern NLP architectures can be optimized.
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 - **Python 3**
 - **Jupyter Notebook**
 - **Natural Language Processing (NLP)**
@@ -45,7 +45,7 @@ Key aspects of this work include:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 ```
 ├── Comparative Analysis and Improvement of Chatbot Models.ipynb   # Main notebook
 ├── intents.json                                                   # Text file of intents
@@ -59,7 +59,7 @@ Key aspects of this work include:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 1. Clone the repository:
    ```bash
    git clone https://github.com/<your-username>/<your-repo-name>.git
@@ -80,7 +80,7 @@ Key aspects of this work include:
 
 ---
 
-## 🎯 What This Project Demonstrates
+## What This Project Demonstrates
 This project highlights:
 - Strong understanding of **NLP fundamentals** and chatbot architectures.
 - Ability to **design evaluation frameworks** and conduct rigorous model comparisons.
@@ -89,7 +89,7 @@ This project highlights:
 
 ---
 
-## 📬 Contact
+## Contact
 If you're interested feel free to connect:
 
 - **Name:** [Stanley Poley]
@@ -97,5 +97,3 @@ If you're interested feel free to connect:
 - **Email:** [stanley.poley@gmail.com]
 
 ---
-
-> ⭐ If you find this project interesting, consider starring the repo!
