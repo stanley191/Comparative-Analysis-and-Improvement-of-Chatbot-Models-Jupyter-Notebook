@@ -68,13 +68,13 @@ Key aspects of this work include:
    ```bash
    cd <your-repo-name>
    ```
-   Make sure the notebook, data sets and intents.json are placed in the same folder for smooth execution (you will need to move the tables from the "Saved Tables" folder). The models should run in their seperate folders but if you would like to re-run the batch-tests you will need to manually move the tables produced into the same folder as the notebook to use        your own data.
-   /n Note: The saved graphics included in this repo are for illustration only and are not required to re-run the notebook.
-3. Install dependencies:
+-Make sure the notebook, data sets and intents.json are placed in the same folder for smooth execution (you will need to move the tables from the "Saved Tables" folder). The models should run in their seperate folders but if you would like to re-run the batch-tests you will need to manually move the tables produced into the same folder as the notebook to use        your own data.
+-Note: The saved graphics included in this repo are for illustration only and are not required to re-run the notebook.
+4. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-4. Open the Jupyter Notebook:
+5. Open the Jupyter Notebook:
    ```bash
    jupyter notebook "Comparative Analysis and Improvement of Chatbot Models.ipynb"
    ```
