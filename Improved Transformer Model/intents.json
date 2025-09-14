@@ -1,0 +1,259 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Greetings",
+        "What's up",
+        "salutations",
+        "Nice to meet you"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Greetings! How may I assist you?",
+        "Hello! I'm here to help.",
+        "Hi! What brings you here today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Take care",
+        "Until next time",
+        "Farewell",
+        "Catch you later",
+        "See ya",
+        "Later",
+        "Peace out"
+      ],
+      "responses": [
+        "Goodbye! Have a wonderful day!",
+        "See you later! Take care!",
+        "Farewell! Come back anytime!",
+        "Bye! It was nice talking to you!",
+        "Until next time! Stay safe!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thank you so much",
+        "I appreciate it",
+        "Thanks a lot",
+        "Thank you very much",
+        "Much appreciated",
+        "I'm grateful",
+        "Thanks for the help",
+        "That was helpful"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "My pleasure!",
+        "Glad I could assist!",
+        "Anytime!",
+        "You're very welcome!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me",
+        "I need help",
+        "Help me please",
+        "I need assistance",
+        "Can you assist me",
+        "I'm looking for help",
+        "Could you help",
+        "I need support",
+        "Can you guide me",
+        "I'm stuck"
+      ],
+      "responses": [
+        "Of course! I'm here to help. What do you need assistance with?",
+        "I'd be happy to help! What can I do for you?",
+        "Sure! Let me know what you need help with.",
+        "Absolutely! How can I assist you today?",
+        "I'm here to help! What's on your mind?"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like",
+        "How's the weather",
+        "Is it raining",
+        "Will it rain today",
+        "Weather forecast",
+        "Temperature today",
+        "Is it sunny",
+        "Weather update",
+        "Climate today",
+        "What's the temperature",
+        "Is it cold outside"
+      ],
+      "responses": [
+        "I don't have access to real-time weather data. Please check a weather app or website for current conditions.",
+        "For accurate weather information, I recommend checking your local weather service.",
+        "I can't provide current weather updates, but you can find this information on weather websites or apps."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it",
+        "Current time",
+        "Tell me the time",
+        "What's the time",
+        "Time please",
+        "Clock",
+        "What time",
+        "Current time please",
+        "Can you tell me the time",
+        "Do you know the time"
+      ],
+      "responses": [
+        "I don't have access to real-time clock information. Please check your device's clock.",
+        "For the current time, please check your computer or phone's clock.",
+        "I can't provide the current time, but you can see it on your device."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What's your name",
+        "Who are you",
+        "Tell me your name",
+        "What do I call you",
+        "Your name please",
+        "How should I address you",
+        "What are you called",
+        "Introduce yourself",
+        "Do you have a name",
+        "Can I know your name"
+      ],
+      "responses": [
+        "I'm your AI assistant chatbot, here to help you!",
+        "You can call me Assistant. I'm an AI chatbot.",
+        "I'm an AI assistant designed to help and chat with you!",
+        "I'm your friendly AI chatbot assistant!"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "How are you",
+        "How are you doing",
+        "How's it going",
+        "How do you feel",
+        "Are you okay",
+        "How's your day",
+        "What's up with you",
+        "How are things",
+        "You doing alright",
+        "Are you alright"
+      ],
+      "responses": [
+        "I'm doing great, thank you for asking! How are you?",
+        "I'm functioning well and ready to help! How about you?",
+        "All systems are running smoothly! How are you today?",
+        "I'm doing wonderful! Thanks for asking. How are you?"
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "What can you do",
+        "Your capabilities",
+        "What are your skills",
+        "How can you help me",
+        "What services do you provide",
+        "What's your purpose",
+        "What are you designed for",
+        "Tell me about your features",
+        "What functions do you have",
+        "How can you assist me"
+      ],
+      "responses": [
+        "I can chat with you, answer questions, provide information, and help with various tasks. What would you like to know?",
+        "I'm designed to have conversations, provide assistance, and help answer your questions. How can I help you today?",
+        "I can engage in conversations, provide information, and assist with various queries. What do you need help with?"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Say something funny",
+        "Do you know any jokes",
+        "Can you be funny",
+        "Humor me",
+        "Something amusing",
+        "Entertain me",
+        "I need to laugh",
+        "Got any jokes"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "I told my computer I needed a break, and now it won't stop sending me Kit-Kat ads!",
+        "Why did the robot go on a diet? It had a byte problem!",
+        "What do you call a chatbot that sings? A Dell!",
+        "Why don't robots ever panic? They have nerves of steel!"
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "You're awesome",
+        "You're great",
+        "Good job",
+        "Well done",
+        "You're helpful",
+        "You're smart",
+        "I like you",
+        "You're amazing",
+        "You're the best",
+        "Excellent work"
+      ],
+      "responses": [
+        "Thank you so much! That's very kind of you to say.",
+        "I appreciate the compliment! I'm glad I could help.",
+        "Thank you! I try my best to be helpful.",
+        "That's wonderful to hear! Thank you for the kind words.",
+        "I'm grateful for your kind words! Thank you!"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you",
+        "What's your age",
+        "When were you created",
+        "When were you born",
+        "Your age please",
+        "Are you young or old",
+        "How long have you been around",
+        "What year were you made",
+        "When is your birthday?"
+      ],
+      "responses": [
+        "I'm an AI, so I don't have an age in the traditional sense. I exist in the digital realm!",
+        "As an AI, I don't age like humans do. I was created through programming!",
+        "I don't have a birth date like humans. I'm a computer program designed to chat and help!"
+      ]
+    }
+  ]
+}

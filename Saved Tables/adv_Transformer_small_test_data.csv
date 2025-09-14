@@ -1,0 +1,7 @@
+Advanced Transformer,Predicted Intent,True intent,Confidence (0-1),Relevance (0-1),Response Time (s)
+prompt 1,greeting,greeting,0.99943846,1,0.07199978828430176
+prompt 2,help,help,0.9368803,1,0.07200026512145996
+prompt 3,capabilities,capabilities,0.9987985,1,0.0710000991821289
+prompt 4,joke,joke,0.99959475,1,0.0690007209777832
+prompt 5,thanks,thanks,0.99730647,1,0.0690007209777832
+prompt 6,name,goodbye,0.9903837,0,0.0690009593963623
